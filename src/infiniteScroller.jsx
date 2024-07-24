@@ -15,7 +15,7 @@ const InfiniteScroller = () => {
 
   const fetchItems = async () => {
     const res = await axios.get(
-      `https://jsonplaceholder.typicode.com/posts?_page=${page}&_limit=10`
+      "https://jsonplaceholder.typicode.com/posts?_page=1&_limit=10"
     );
     const newItems = res.data;
 
