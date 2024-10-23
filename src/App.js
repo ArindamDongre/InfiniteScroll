@@ -5,7 +5,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <h1>Infinite Scroller</h1>
+      <h1>Infinity Scroller</h1>
       <InfiniteScroller />
     </div>
   );
